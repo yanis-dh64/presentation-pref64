@@ -1,0 +1,101 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  background-color: #ffffff;
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: #000000;
+}
+
+em {
+  color: #ff0000;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #000000;
+}
+li {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#19053f, #af1212);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 300px;
+  border-radius: 18px;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#ffffff, #b1338b);
+  text-decoration: none;
+}
+
+.cta a {
+  color: white;
+  font-size: 19px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+/* .carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+} */
+
+.facadePref {
+  display: flex ;
+  justify-content: center;
+}
+
+.listes-bouton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+nav {
+  padding:5px;
+  margin:0;
+  background-color: rgba(146, 148, 219, 0.212) !important;
+  /* je déclare un contenant flexible */
+  display: flex;
+  /* J'aligne le contenu horizontalement */
+  justify-content: center;
+  /* J'aligne verticalement  */
+  align-items: center;
+}
+
+nav a {
+  margin-inline:5px;
+  text-decoration: none;
+}
+
+.photo-servive img {
+  width: 500px;
+  height: 500px;
+  margin: top 100%;  
+}
